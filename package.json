@@ -1,0 +1,8 @@
+{
+  "name": "node-proxy-pool",
+  "version": "1.0.0",
+  "dependencies": {
+    "crawler": "^1.1.2",
+    "lowdb": "^1.0.0"
+  }
+}
