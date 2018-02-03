@@ -1,20 +1,9 @@
 const Crawler = require("crawler");
-const config = require("./config");
-const {
-  userAgent,
-  goubanjia,
-  ip66,
-  data5u,
-  xdaili,
-  xicidaili,
-  ip3366,
-  coderbusy,
-  nianshao,
-  proxydb
-} = config;
+const config = require("../crawlers/config");
 const crawler = new Crawler();
 crawler.direct({
-  uri: proxydb.uri,
+  uri: "http://example.com",
+  proxy: "http://112.114.78.12:8118",
   userAgent: config.userAgent,
   callback: function(error, response) {
     if (error) {
@@ -24,7 +13,7 @@ crawler.direct({
     if (response && response.statusCode !== 200) {
       return console.log(response);
     }
-
-    proxydb.callback(response.$, response);
+    const $ = response.$;
+    console.log($("title").text());
   }
 });

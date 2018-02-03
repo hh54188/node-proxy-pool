@@ -6,6 +6,15 @@
 
 prettiter config
 
+## Puppeteer Scraping Tutorial
+
+https://medium.com/@e_mad_ehsan/getting-started-with-puppeteer-and-chrome-headless-for-web-scrapping-6bf5979dee3e
+
+## Await and Async Tutorial
+
+* https://ponyfoo.com/articles/understanding-javascript-async-await
+* https://tutorialzine.com/2017/07/javascript-async-await-explained
+
 ## Websites:
 
 * http://www.goubanjia.com/ (Done)
@@ -15,5 +24,8 @@ prettiter config
 * http://www.xicidaili.com/ (Done)
 * https://list.proxylistplus.com/Fresh-HTTP-Proxy-List-1 (Done)
 * http://www.ip3366.net/ (Done)
-* http://https://proxy.coderbusy.com/ (Done)
+* http://proxy.coderbusy.com/ (Done)
+* http://www.nianshao.me/ (Done)
+
 * http://www.kuaidaili.com/free/ (Interesting)
+* http://proxydb.net/ (Interesting)

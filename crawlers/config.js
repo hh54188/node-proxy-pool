@@ -146,5 +146,28 @@ module.exports = {
         .get();
       console.log(ips);
     }
+  },
+  proxydb: {
+    uri: "http://proxydb.net/",
+    callback: $ => {
+      const $trs = $(".container table tbody tr");
+      const ips = $trs.map((index, element) => {
+        console.log("----------");
+        const scriptElement = $(element).find("td script");
+        const scriptContent = scriptElement.html();
+        eval(scriptContent);
+        console.log(script.html());
+        // const firstTd = tds.eq(0);
+        // console.log(firstTd.html());
+        // console.log(firstTd.length);
+        // const link = $(firstTd).find("a");
+        // console.log(link.length);
+        // console.log(link);
+        // const target = $(tds.eq(0))
+        //   .find("a")
+        //   .text();
+        // console.log(target);
+      });
+    }
   }
 };
